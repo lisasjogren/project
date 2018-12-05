@@ -1,3 +1,10 @@
+body {
+  font-family: 'Candara', sans-serif;
+  font-weight: lighter;
+  margin: 50px 400px 50px 400px;
+  line-height: 20px;
+}
+
 a:link {
 color: #000;
 text-decoration: none;
@@ -7,7 +14,7 @@ color: #000;
 text-decoration: none;
 }
 a:hover {
-color: #999;
+color: #FFC0CB;
 }
 a:active {
 text-decoration: underline;
