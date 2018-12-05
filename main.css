@@ -1,9 +1,15 @@
 body {
   font-family: 'Candara', sans-serif;
   font-weight: lighter;
-  margin: 50px 400px 50px 400px;
+  margin: 50px 350px 50px 350px;
   line-height: 20px;
 }
+
+.site-title {
+    font-size: 85px;
+    letter-spacing: 40px;
+    color: #FFC0CB
+  }
 
 a:link {
 color: #000;
@@ -27,5 +33,5 @@ list-style: none;
 #meny li {
 display: inline;
 list-style-type: none;
-padding: 0 20px 0 0;
+padding: 0 50px 0 0;
 }
