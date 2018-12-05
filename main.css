@@ -23,12 +23,23 @@ body {
       clear: both;
   }
 
+.välkommen {
+  font-size: 30px;
+}
+
+hr {
+  height: 1px;
+  color: #FFC0CB;
+  background-color: #FFC0CB;
+  border: none;
+}
+
 a:link {
-color: #000;
+color: #008368;
 text-decoration: none;
 }
 a:visited {
-color: #000;
+color: #008368;
 text-decoration: none;
 }
 a:hover {
