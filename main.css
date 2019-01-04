@@ -2,7 +2,6 @@ body {
   font-family: 'Candara', sans-serif;
   font-weight: lighter;
   margin: 0px 0px 50px 0px;
-  line-height: 20px;
   text-align: left;
 }
 
@@ -21,22 +20,29 @@ body {
     height: 150px;
   }
 
+h2, h3 {
+  margin: 0px 350px 20px 350px;
+}
+
 img {
   margin: 0px 350px 20px 350px;
 }
 
-h3 {
-margin: 0px 350px 20px 350px;
-}
-
 p {
   margin: 0px 350px 20px 350px;
+  line-height: 170%;
 }
 
   .column {
       float: left;
       width: 33.33%;
   }
+
+.row {
+  margin: 0px 350px 20px 350px;
+  text-align: center;
+  line-height: 140%;
+}
 
   /* Clear floats after the columns */
   .row:after {
@@ -45,10 +51,14 @@ p {
       clear: both;
   }
 
+  .contact {
+    margin: 0px 350px 20px 350px;
+  }
+
 .välkommen {
   font-size: 30px;
   line-height: normal;
-  text-align: center;
+  margin: 0px 350px 20px 350px;
 }
 
 hr {
@@ -56,6 +66,7 @@ hr {
   color: #FFC0CB;
   background-color: #FFC0CB;
   border: none;
+  margin: 0px 0px 20px 0px;
 }
 
 a:link {
@@ -72,12 +83,14 @@ color: #FFC0CB;
 a:active {
 text-decoration: underline;
 }
+
 #meny {
 margin: 30px;
 padding: 0;
 list-style: none;
 text-align: center;
 }
+
 #meny li {
 display: inline;
 list-style-type: none;
