@@ -1,15 +1,37 @@
 body {
   font-family: 'Candara', sans-serif;
   font-weight: lighter;
-  margin: 50px 350px 50px 350px;
+  margin: 0px 0px 50px 0px;
   line-height: 20px;
+  text-align: left;
+}
+
+.site-header {
+ background: #FFC0CB;
+ height: 150px;
 }
 
 .site-title {
-    font-size: 85px;
-    letter-spacing: 40px;
-    color: #FFC0CB
+  color: #ffffff;
+    font-size: 45px;
+    letter-spacing: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
   }
+
+img {
+  margin: 0px 350px 20px 350px;
+}
+
+h3 {
+margin: 0px 350px 20px 350px;
+}
+
+p {
+  margin: 0px 350px 20px 350px;
+}
 
   .column {
       float: left;
@@ -25,6 +47,8 @@ body {
 
 .välkommen {
   font-size: 30px;
+  line-height: normal;
+  text-align: center;
 }
 
 hr {
@@ -35,11 +59,11 @@ hr {
 }
 
 a:link {
-color: #008368;
+color: #2D005B;
 text-decoration: none;
 }
 a:visited {
-color: #008368;
+color: #2D005B;
 text-decoration: none;
 }
 a:hover {
@@ -52,6 +76,7 @@ text-decoration: underline;
 margin: 30px;
 padding: 0;
 list-style: none;
+text-align: center;
 }
 #meny li {
 display: inline;
