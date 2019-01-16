@@ -15,17 +15,17 @@
          </a>
 
       <ul id="meny">
-<li><a href="page2.html">Om oss</a></li>
-<li><a href="page3.html">Våra tjänster</a></li>
-<li><a href="page4.html">Kundcase</a></li>
-<li><a href="page5.html">Nyheter</a></li>
-<li><a href="page6.html">Kontakta oss</a></li>
+<li><a href="om-oss.html">Om oss</a></li>
+<li><a href="vara-tjanster.html">Våra tjänster</a></li>
+<li><a href="kundcase.html">Kundcase</a></li>
+<li><a href="nyheter.html">Nyheter</a></li>
+<li><a href="kontakta-oss.html">Kontakta oss</a></li>
 </ul>
 
 <hr>
 
       <p>Har du några frågor eller funderingar? Kontakta oss gärna på mejl, telefon eller via kontaktformuläret nedan.</p><br>
-
+<!-- Nedan är koden för att göra tre spalter.-->
       <div class="row">
         <div class="column">Öppettider: <br><br> Måndag: 8-17<br> Tisdag: 8-17<br> Onsdag 8-17<br> Torsdag: 8-17<br> Fredag: 8-16</div>
         <div class="column">Adress: <br><br> Artillerigatan 42<br> 114 45 Stockholm<br> T-bana: Östermalmstorg</div>
@@ -35,24 +35,24 @@
 <hr>
 
 <br>
-
+      <!-- Nedan är koden för kontaktformuläret. -->
       <form class="contact" method="post">
       <!-- Input type="text" betyder att det är en ruta som man kan skriva text i.  -->
         Namn *<br>
-        <input type="text" name="namn" value="">
+        <input type="text" name="namn" value="namn">
         <br><br>
         Email *<br>
-        <input type="text" name="email" value="">
+        <input type="text" name="email" value="email">
         <br><br>
         Telefon<br>
-        <input type="text" name="telefon" value="">
+        <input type="text" name="telefon" value="telefon">
         <br><br>
 
-      <!-- <textarea name="beskrivning" skriver man när man vill få en större textruta. -->
+      <!-- <textarea name="kommentar" skrev jag för att jag ville få en större textruta samt vilken höjd och bredd jag ville ha. -->
        Kommentar / Fråga <br>
         <textarea name="kommentar" placeholder="" style="width: 300px; height:150px"></textarea><br><br>
 
-      <!-- <input type="submit" leder till form action-adressen ovan och "reset" gör att formuläret töms på information. -->
+      <!-- <input type="submit" leder till form action-adressen som man kan skriva efter form class ovan. -->
         <input type="submit" name="skicka" value="Skicka">
       </form>
 

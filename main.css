@@ -1,15 +1,17 @@
+/* Typsnitt, marginaler, vänsterställd text */
 body {
   font-family: 'Candara', sans-serif;
   font-weight: lighter;
   margin: 0px 0px 50px 0px;
   text-align: left;
 }
-
+/* Färg och höjd på headern */
 .site-header {
  background: #FFC0CB;
  height: 150px;
 }
 
+/* Egenskaper för texten i headern: färg, storlek, mellanrum, placering */
 .site-title {
   color: #ffffff;
     font-size: 45px;
@@ -20,6 +22,7 @@ body {
     height: 150px;
   }
 
+/* marginaler för rubriker, brödtext och bilder */
 h2, h3 {
   margin: 0px 350px 20px 350px;
 }
@@ -33,6 +36,7 @@ p {
   line-height: 170%;
 }
 
+/* Egenskaper för spalterna på kontakta oss-sidan */
   .column {
       float: left;
       width: 33.33%;
@@ -44,23 +48,25 @@ p {
   line-height: 140%;
 }
 
-  /* Clear floats after the columns */
   .row:after {
       content: "";
       display: table;
       clear: both;
   }
 
+/* Marginaler för kontaktformuläret */
   .contact {
     margin: 0px 350px 20px 350px;
   }
 
+/* Storlek och marginaler för sidrubrikerna */
 .välkommen {
   font-size: 30px;
   line-height: normal;
   margin: 0px 350px 20px 350px;
 }
 
+/* Höjd, färg och marginaler för linjerna */
 hr {
   height: 1px;
   background-color: #FFC0CB;
@@ -68,6 +74,7 @@ hr {
   margin: 0px 0px 20px 0px;
 }
 
+/* Färg på länkarna i menyn samt att de ändrar färg när man hovrar över dem */
 a:link {
 color: #2D005B;
 text-decoration: none;
@@ -83,6 +90,7 @@ a:active {
 text-decoration: underline;
 }
 
+/* Marginaler och placering för menyn */
 #meny {
 margin: 30px;
 padding: 0;
